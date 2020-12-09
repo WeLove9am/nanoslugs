@@ -1,5 +1,5 @@
 {
-    "name": "WeLove9am/nanoslugs",
+    "name": "welove9am/nanoslugs",
     "description": "Generates a nanoid for new entry slugs.",
     "type": "craft-plugin",
     "version": "1.1.0",
