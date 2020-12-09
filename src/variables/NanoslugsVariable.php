@@ -3,14 +3,11 @@
  * Nanoslugs plugin for Craft CMS 3.x
  *
  * Hashes the Id of an entry when it is saved and replaces the slug.
- *
- * @link      coryzibell.com
- * @copyright Copyright (c) 2018 Cory Zibell
  */
 
-namespace coryzibell\nanoslugs\variables;
+namespace WeLove9am\nanoslugs\variables;
 
-use coryzibell\nanoslugs\Nanoslugs;
+use WeLove9am\nanoslugs\Nanoslugs;
 
 use Craft;
 
@@ -21,10 +18,6 @@ use Craft;
  * the {{ craft }} global variable (e.g. {{ craft.nanoslugs }}).
  *
  * https://craftcms.com/docs/plugins/variables
- *
- * @author    Cory Zibell
- * @package   Nanoslugs
- * @since     1.0.0
  */
 class NanoslugsVariable
 {

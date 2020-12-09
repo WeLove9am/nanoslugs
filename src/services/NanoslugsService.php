@@ -3,23 +3,15 @@
  * Nanoslugs plugin for Craft CMS 3.x
  *
  * Hashes the Id of an entry when it is saved and replaces the slug.
- *
- * @link      coryzibell.com
- * @copyright Copyright (c) 2018 Cory Zibell
  */
 
-namespace coryzibell\nanoslugs\services;
+namespace WeLove9am\nanoslugs\services;
 
-use coryzibell\nanoslugs\Nanoslugs;
+use WeLove9am\nanoslugs\Nanoslugs;
 
 use Craft;
 use craft\base\Component;
 
-/**
- * @author    Cory Zibell
- * @package   Nanoslugs
- * @since     1.0.0
- */
 class NanoslugsService extends Component
 {
 

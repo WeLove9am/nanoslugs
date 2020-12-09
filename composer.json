@@ -1,8 +1,8 @@
 {
-    "name": "coryzibell/nanoslugs",
+    "name": "WeLove9am/nanoslugs",
     "description": "Generates a nanoid for new entry slugs.",
     "type": "craft-plugin",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "keywords": [
         "craft",
         "cms",
@@ -13,17 +13,17 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Cory Zibell",
-            "homepage": "https://coryzibell.com"
+            "name": "Andy Parsons",
+            "homepage": "https://WeLove9am.com"
         }
     ],
     "require": {
-        "craftcms/cms": "^3.0.0-RC1",
+        "craftcms/cms": "^3.5.0",
         "hidehalo/nanoid-php": "^1.1.4"
     },
     "autoload": {
         "psr-4": {
-          "coryzibell\\nanoslugs\\": "src/"
+          "WeLove9am\\nanoslugs\\": "src/"
         }
     },
     "extra": {
@@ -31,10 +31,10 @@
         "handle": "nanoslugs",
         "hasCpSettings": true,
         "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/coryzibell/nanoslugs/master/CHANGELOG.md",
+        "changelogUrl": "https://raw.githubusercontent.com/WeLove9am/nanoslugs/master/CHANGELOG.md",
         "components": {
-            "nanoslugsService": "coryzibell\\nanoslugs\\services\\NanoslugsService"
+            "nanoslugsService": "WeLove9am\\nanoslugs\\services\\NanoslugsService"
         },
-        "class": "coryzibell\\nanoslugs\\Nanoslugs"
+        "class": "WeLove9am\\nanoslugs\\Nanoslugs"
     }
 }

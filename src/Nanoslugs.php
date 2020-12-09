@@ -3,16 +3,13 @@
  * Nanoslugs plugin for Craft CMS 3.x
  *
  * Uses nanoid to generate a slug for new entries
- *
- * @link      https://coryzibell.com
- * @copyright Copyright (c) 2018 Cory Zibell
  */
 
-namespace coryzibell\nanoslugs;
+namespace WeLove9am\nanoslugs;
 
-use coryzibell\nanoslugs\services\NanoslugsService as NanoslugsServiceService;
-use coryzibell\nanoslugs\variables\NanoslugsVariable;
-use coryzibell\nanoslugs\models\Settings;
+use WeLove9am\nanoslugs\services\NanoslugsService as NanoslugsServiceService;
+use WeLove9am\nanoslugs\variables\NanoslugsVariable;
+use WeLove9am\nanoslugs\models\Settings;
 
 use Craft;
 use craft\base\Plugin;
@@ -25,10 +22,6 @@ use yii\base\Event;
 
 /**
  * Class Nanoslugs
- *
- * @author    Cory Zibell
- * @package   Nanoslugs
- * @since     1.0.0
  *
  * @property  NanoslugsServiceService $nanoslugsService
  */
